@@ -4,6 +4,7 @@
  stands then his total value will be compared to the dealer's total value. In case of stand if the player gets value higher than the dealer
  he wins and in case lesser than player loose, if player reaches above 21 the plyaer automatically loose
 
+ total 3 decks means 12 cards for each value and a total of 156 cards has been handeled
 card values - :
 ace -: 1 or 11
 2-10 -: face value

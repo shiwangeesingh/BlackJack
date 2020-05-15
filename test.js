@@ -1,3 +1,5 @@
+// Test cases for each apis are available here to check test cases run command npm test
+
 let mongoose = require("mongoose");
 let chai = require('chai');
 let chaiHttp = require('chai-http');

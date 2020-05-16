@@ -204,6 +204,7 @@ function calculateFinalValue(value1, value2){
 function generateRandomCard(assignedCards=[]){
     let availCardList = []
     let cards = ["ace","king","queen","joker","one","two","three","four","five","six","seven","eight","nine","ten"]
+    if(availCardList.length > 12){ 
     for(let list of cards){
         let count = 0;
         assignedCards.forEach((v) =>{
@@ -212,6 +213,10 @@ function generateRandomCard(assignedCards=[]){
              if(count < 12)
              availCardList.push(list)
     }
-    let randomCard = availCardList[Math.floor(Math.random() * availCardList.length)];
-    return randomCard
+    var randomCard = availCardList[Math.floor(Math.random() * availCardList.length)];
+}
+else
+var randomCard = cards[Math.floor(Math.random() * cards.length)];
+
+return randomCard
 }
